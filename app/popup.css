@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* IDs [DIV] */
+#greeting {}
+
+#dailyGoal {
+	font-size: 1.25em;
+}
+
+#dayStreak {}
