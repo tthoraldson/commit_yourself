@@ -13,8 +13,7 @@
   "icons": { "16": "img/icon64.png",
           "128": "img/icon128.png" },
 
-  "permissions": [
-    "activeTab",
-    "https://ajax.googleapis.com/"
-  ]
+ "permissions": [
+    "activeTab"
+ ]
 }
