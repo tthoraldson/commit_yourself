@@ -10,14 +10,29 @@
 */
 $(document).ready(function(){
   console.log('document is ready');
+
 });
 
 gitUName = "tthoraldson" // temporary, just for testing purposes.
 gitURL = "http://github.com/" + gitUName;
 
-// $getGitStats = function(uname){
-//   var stats = $.ajax({
-//     url: 'https://api.github.com'
-//     type: 'GET'
-//   })
-// }
+// $.ajax( {
+//     url : 'https://api.github.com/users/' + gitUName + '/events',
+//     type: 'GET',
+//     dataType : 'jsonp',
+//     success : function(d){
+//       console.log(d.data[0]);
+//       $('#listGIT').append(d);
+//     },
+//     error: function(){
+//       console.log("AJAX request has failed");
+//     }
+// });
+
+//CONVERT(varchar(20),expression,style)
+
+var currentDate = new Date();
+var commitDate = new Date(Date.parse('2016-08-18T04:14:19Z'));
+
+console.log('current date: ' + currentDate);
+console.log('commit date: ' + commitDate);
