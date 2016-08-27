@@ -42,3 +42,4 @@ console.log('current date: ' + currentDate);
 console.log('commit date: ' + commitDate);
 
 // figure out more ajax calls for getting commits
+// ayayayaya
