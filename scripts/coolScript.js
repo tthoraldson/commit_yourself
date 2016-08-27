@@ -40,3 +40,5 @@ console.log(Date.parse('2016-08-18T04:14:19Z'));
 
 console.log('current date: ' + currentDate);
 console.log('commit date: ' + commitDate);
+
+// figure out more ajax calls for getting commits
